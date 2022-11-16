@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>login</title>
+</head>
+<body>
+    <header>
+        <div class="caixa-menu">
+            <h1>Posta que eu respondo!</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="">Cadastre-se Já</a></li>
+                    <li><a href="recuperarSenha.html">Recuperar Senha</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="caixa-form">    
+            <form>
+
+                <label for="fUsuario">Usuário:</label>
+                <input type="email" name="fUsuario" id="inUsuario" placeholder="Digite seu usuário" autofocus> 
+                <label for="fSenha">Senha</label>
+                <input type="password" name="fSenha" id="inSenha" placeholder="Digite sua senha">
+                <!-- <input type="button" id="btLogin" value="Entrar"> -->
+                <button id="btEntrar">Entrar</button>
+
+                <span id="outResposta"></span>
+
+            </form>
+    
+        </div>
+
+        <script src="login.js"></script>
+    </main>
+</body>
+</html>

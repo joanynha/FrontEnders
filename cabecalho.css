@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+header{
+    width: 100%;
+    background-color: #5ecde0;
+    height: 200px;
+}
+
+.caixa-menu {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.caixa-menu h1 {
+    font-size: 40px;
+    color: #020305;
+    font-family: 'Anton', sans-serif;
+}
+
+.caixa-menu nav{
+    position: absolute;
+    right: 0;
+}
+
+.caixa-menu li {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    font-family: 'Anton', sans-serif;
+    transition: 0.4s all;
+   
+}
+
+.caixa-menu li:hover {
+    background-color: #e0e0e0;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.caixa-menu a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    transition: 0.4s all;
+}
+
+.caixa-menu a:hover {
+    font-size: 22px;
+}
+
