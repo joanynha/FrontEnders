@@ -1,28 +1,12 @@
 @import url(cabecalho.css);
 
-.caixa-form{
-    width: 1000px;
-    margin: 0 auto;
-}
-
-.caixa-form form{
-    text-align: center;
-    margin-top: 50px;
-}
-.caixa-form input, label {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 5px;
-}
-
-.caixa-form label {
-    font-size: 22px;
-    font-family: 'Auton', sans-serif;
-}
-
-#btRecuperar {
-    margin-top: 10px;
-    padding: 5px;
-    border-radius: 12px;
-}
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #ead1cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ead1cb);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ead1cb )
+    }

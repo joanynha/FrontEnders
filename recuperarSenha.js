@@ -20,15 +20,18 @@ function senhaNova(e) {
         outResposta.append(resposta);
         resposta.textContent += "Usuário Incorreto. " + "\n";
         resposta.style.color = "red";
+        resposta.style.fontSize = "10px";
     }
     if (senha1.length < 6 || senha2.length < 6) {
         outResposta.append(resposta);
         resposta.textContent += "Nova senha deve conter no mínimo 6 caracteres e campo não pode estar em branco" + "\n";
         resposta.style.color = "red";
+        resposta.style.fontSize = "10px";
     }if(inSenha.value != inSenha2.value && inSenha2.value != inSenha.value){
         outResposta.append(resposta);
         resposta.textContent += "Confirme as senhas digitadas" + "\n";
         resposta.style.color = "red";
+        resposta.style.fontSize = "10px";
     }
     
     else{
@@ -37,6 +40,7 @@ function senhaNova(e) {
             outResposta.append(resposta);
             resposta.textContent = "Nova Senha Cadastrada!";
             resposta.style.color = "green";
+            resposta.style.fontSize = "15px";
         }
         
     }

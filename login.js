@@ -1,15 +1,3 @@
-/* <script type="text/javascript">
-function validateEmail(email)
-{
- var reg = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/
- if (reg.test(email)){
- return true; }
- else{
- return false;
- }
-} 
-</script>  */
-
 var inUsuario = document.getElementById('inUsuario');
 var inSenha = document.getElementById('inSenha');
 var outResposta = document.getElementById('outResposta');
@@ -45,7 +33,7 @@ function validaEmail(e){
             console.log("correto");
             outResposta.append(resposta);
     
-            resposta.textContent = "Cadastro realizado";
+            resposta.textContent = "Login Realizado";
             resposta.style.fontSize = "20px";
             resposta.style.color = "green";
         
@@ -59,5 +47,3 @@ function validaEmail(e){
 
 var btEntrar = document.getElementById('btEntrar');
 btEntrar.addEventListener("click", validaEmail);
-
-
