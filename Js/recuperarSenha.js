@@ -21,7 +21,8 @@ function senhaNova(e) {
         resposta.textContent += "Usuário Incorreto. " + "\n";
         resposta.style.color = "red";
         resposta.style.fontSize = "10px";
-    } else if (senha1.length < 6 || senha2.length < 6) {
+    }
+    else if (senha1.length < 6 || senha2.length < 6) {
         outResposta.append(resposta);
         resposta.textContent += "Nova senha deve conter no mínimo 6 caracteres e campo não pode estar em branco" + "\n";
         resposta.style.color = "red";
