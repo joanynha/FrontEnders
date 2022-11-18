@@ -19,13 +19,15 @@ function validaEmail(e){
         outResposta.append(resposta);
         resposta.textContent += "Usuário Incorreto. " + "\n";
         resposta.style.color = "red";
+        resposta.style.fontSize = "15px";
     }
-    if(senha.length < 6){
+    else if(senha.length < 6){
 
         console.log("Errado")
         outResposta.append(resposta);
         resposta.textContent += "Digite uma senha maior que 6 caracteres. " + "\n";
         resposta.style.color = "red";
+        resposta.style.fontFamily = "15px";
         inSenha.focus();
 
     }else{
@@ -33,7 +35,7 @@ function validaEmail(e){
             console.log("correto");
             outResposta.append(resposta);
     
-            resposta.textContent = "Login Realizado";
+            resposta.textContent = "Login realizado";
             resposta.style.fontSize = "20px";
             resposta.style.color = "green";
         
