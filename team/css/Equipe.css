@@ -1,0 +1,271 @@
+.conteudo{
+    margin-top: 100px !important;
+}
+
+h1 { 
+    height: 100px !important;
+    display: flex !important;
+    justify-content: center !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    margin-top: 10px !important;
+    font-size: 60px !important;
+    font-weight: 400 !important;
+    color:rgb(85, 6, 6) !important;
+}
+
+.equipe {
+    height: 70vh !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+}
+
+.equipe1 {
+    height: 70vh !important;
+    width: 50% !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+}
+
+
+.border {
+    height: 200px !important;
+    width: 250px !important;
+    background:transparent !important;
+    border-radius: 10px !important;
+    position: relative !important;
+}
+
+.border:hover {
+    border-radius: 1px solid #2f243aff !important;
+}
+
+.card {
+    height: 270px !important;
+    width: 260px !important;
+    background: #808080 !important;
+    border-radius: 10px !important;
+    transition: background 0.8s !important;
+    overflow: hidden !important;
+    background:#2f243aff !important;
+    box-shadow: 0 70px 63px -60px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative !important;
+    cursor: pointer !important;
+}
+
+.texto {
+position: absolute !important;
+margin-left: 10px !important;
+color:white !important;
+height: 130px !important;
+top: 100px !important;
+display: flex !important;
+flex-direction: column !important;
+align-items:center !important;
+justify-content: space-around !important;
+}
+
+.card0 { 
+    background: url(../Fotos/isa.png) center center no-repeat !important;
+    transition: all .5s !important;
+    border: 10px solid #eeeeee !important;
+}
+
+.card0:hover{
+    border: 10px solid #781f40 !important;
+    border-radius: 50% !important;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5)) !important;
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5)) !important;
+    -webkit-transform: rotateZ(-360deg) scale(1.5) !important;
+    transform: rotateZ(-360deg) scale(1.5) !important;
+}
+
+   
+    .card0:hover {
+        background: url(../Fotos/isa.png) left center no-repeat !important;
+        background-size: 600px !important;
+    }
+
+    .card0:hover h2 {
+        opacity: 1 !important;
+    }
+
+    .card0:hover .g {
+        opacity: 1 !important;
+    }
+    
+    .card0:hover a {
+        opacity: 1 !important;
+        color: blue !important;
+}
+
+.card1{
+    background: url(../Fotos/amanda.jpeg) center center no-repeat !important;
+    background-size: 300px !important;
+    transition: all .5s !important;
+    border: 10px solid #eeeeee !important;
+}
+
+    .card1:hover{
+        border: 10px solid #781f40 !important;
+        border-radius: 50% !important;
+        -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5)) !important;
+        filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5)) !important;
+        -webkit-transform: rotateZ(-360deg) scale(1.5) !important;
+        transform: rotateZ(-360deg) scale(1.5) !important;
+    }
+
+    .card1:hover:hover {
+        background:url(../Fotos/amanda.jpeg) !important;
+        background-size: 600px !important;
+    }
+
+.card1:hover h2 {
+    opacity: 1 !important;
+}
+
+.card1:hover .g {
+    opacity: 1 !important;
+}
+
+.card1:hover a {
+    opacity: 1 !important;
+    color:blue !important;
+}
+
+.card2 {
+    background: url(../Fotos/murilo.png) center center no-repeat !important;
+    background-size: 300px !important;
+    transition: all .5s !important;
+    border: 10px solid #eeeeee !important;
+}
+
+.card2:hover {
+    border: 10px solid #781f40 !important;
+    border-radius: 50% !important;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5)) !important;
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5)) !important;
+    -webkit-transform: rotateZ(-360deg) scale(1.5) !important;
+    transform: rotateZ(-360deg) scale(1.5) !important;
+}
+
+.card2:hover {
+    background: url(../Fotos/murilo.png) left center no-repeat !important;
+    background-size: 600px !important;
+}
+
+.card2:hover h2 {
+    opacity: 1 !important;
+}
+
+.card2:hover .g {
+    opacity: 1 !important;
+}
+
+.card2:hover a {
+    opacity: 1 !important;
+    color: blue !important;
+}
+
+.card3 {
+    background: url(../Fotos/jon.jpeg) center center no-repeat !important;
+    background-size: 300px !important;
+    transition: all .5s !important;
+    border: 10px solid #eeeeee !important;
+}
+
+.card3:hover {
+    border: 10px solid #781f40 !important;
+    border-radius: 50% !important;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5)) !important;
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5)) !important;
+    -webkit-transform: rotateZ(-360deg) scale(1.5) !important;
+    transform: rotateZ(-360deg) scale(1.5) !important;
+}
+
+.card3:hover {
+    background: url(../Fotos/jon.jpeg) left center no-repeat !important;
+    background-size: 600px !important;
+}
+
+.card3:hover h2 {
+    opacity: 1 !important;
+}
+
+.card3:hover .g {
+    opacity: 1 !important;
+}    
+
+.card3:hover a {
+    opacity: 1 !important;
+    color: blue !important;
+}
+
+.card4 {
+    background: url(../Fotos/mateus.jpeg) center center no-repeat !important;
+    background-size: 300px !important;
+    transition: all .5s !important;
+    border: 10px solid #eeeeee !important;
+}
+
+.card4:hover {
+    border: 10px solid #781f40 !important;
+    border-radius: 50% !important;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5)) !important;
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5)) !important;
+    -webkit-transform: rotateZ(-360deg) scale(1.5) !important;
+    transform: rotateZ(-360deg) scale(1.5) !important;
+}
+   
+.card4:hover {
+    background: url(../Fotos/mateus.jpeg) left center no-repeat !important;
+    background-size: 600px !important;
+}
+
+.card4:hover h2 {
+    opacity: 1 !important;
+}
+       
+.card4:hover .g {
+    opacity: 1 !important;
+}    
+       
+.card4:hover a {
+    opacity: 1;
+    color: blue
+}
+
+h2 {
+    color: #5f0404 !important;
+    margin-left: 20px !important;
+    opacity: 0 !important;
+    transition: opacity 1s !important;
+    font-weight: 300 !important;
+}
+
+.g {
+    opacity: 0 !important;
+    transition: opacity 1s !important;
+    margin-right: 20px !important;
+    color: #770505 !important;
+    font-weight: 300 !important;
+}
+
+main a {
+    opacity: 0 !important;
+    transition: opacity 1s !important;
+    padding: 15px 0 !important;
+    color:#550404 !important;
+    font-weight: 300 !important;
+}
+
+footer {
+    background: #212529;
+  }
