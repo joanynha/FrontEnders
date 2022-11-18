@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" rel="stylesheet">
+    <title>Posta!</title>
+</head>
+<body>
+
+<!-- cabeçalho -->
+  <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark pe-5 ps-5 py-3">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#"><img src="./assets/logo/logowhite.png" alt="" width="200" height="55"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Saiba mais</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nossa equipe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./form/index.html">Cadastro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./login/index.html">Login</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+<main>
+
+
+ <div class="content">
+  <div class="texto">
+    <h2>Posta que eu <span>Respondo!</span></h2>
+    <p>Aqui no <span>Posta que eu Respondo!</span> você pode tirar suas maiores dúvidas sobre o mundo da programação,
+      assim como participar de uma ativa comunidade de desenvolvedores no Brasil.
+    </p>
+      <a href="#"><button type="button" class="btn btn-outline-success">Saiba mais</button></a>
+      <a href="./form/index.html"><button type="button" class="btn btn-outline-success">Cadastrar-se</button></a>
+  </div>
+      <div class="imagem">
+        <img class="homesite" src="./assets/home/homesite.png">
+      </div>
+ </div>
+
+ <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="0">
+      <img src="./assets/home/carousel1.jpg" class=" w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="0">
+      <img src="./assets/home/carousel2.jpg" class=" w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</main>
+
+
+    <!-- rodapé -->
+ <footer class="w-100 py-3 flex-shrink-0">
+  <div class="container py-4">
+      <div class="row gy-4 gx-5">
+          <div class="col-lg-4 col-md-6">
+              <h5 class="h1 text-white">FrontEnders</h5>
+              <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <p class="small text-muted mb-0">&copy; Copyrights. Todos os direitos reservados.</p>
+          </div>
+          <div class="col-lg-2 col-md-6">
+              <h5 class="text-white mb-3">Produtos</h5>
+              <ul class="list-unstyled text-muted">
+                  <li>PQR</li>
+                  <li>Infonet</li>
+                  <li>UltimaJS</li>
+                  <li>Juicero</li>
+              </ul>
+          </div>
+          <div class="col-lg-2 col-md-6">
+              <h5 class="text-white mb-3">Links úteis</h5>
+              <ul class="list-unstyled text-muted">
+                  <li>Sobre</li>
+                  <li>Preços</li>
+                  <li>Configurações</li>
+                  <li>FAQ</li>
+              </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+              <h5 class="text-white mb-3">Newsletter</h5>
+              <p class="small text-muted">Se inscreva na nossa newsletter! Matenha-se informado de nossos últimos lançamentos.</p>
+              <form action="#">
+                  <div class="input-group mb-3">
+                      <input class="form-control" type="text" placeholder="Escreva seu email" aria-label="Escreva seu email" aria-describedby="button-addon2">
+                      <button class="btn btn-secondary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
