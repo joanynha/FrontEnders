@@ -1,0 +1,220 @@
+@import url(cabecalho.css);
+
+.interface {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+
+#plano1top{
+    background-color: #657275;
+    width: 160px;
+    height: 15px;
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#plano1{
+    background-color: white;
+    width: 200px;
+    height: 400px;
+    border-radius: 20px;
+}
+#plano1botom{
+    background-color: #657275;
+    width: 160px;
+    height: 15px;
+    margin-left: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.plano1{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 30px 0px  rgb(151, 150, 150);
+}
+.letra1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #657275;
+    text-shadow:  1px 1px 2px  rgb(68, 68, 68);
+}
+.btn1{
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: black;
+    background-color: #657275;
+    border-radius: 10px;
+}
+
+p{
+    margin-left: 20px;
+}
+
+#plano2top{
+    background-color: #af9c98;
+    width: 160px;
+    height: 15px;
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#plano2{
+    background-color: white;
+    width: 200px;
+    height: 400px;
+    border-radius: 20px;
+}
+#plano2botom{
+    background-color: #af9c98;
+    width: 160px;
+    height: 15px;
+    margin-left: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.plano2{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 30px 0px  rgb(151, 150, 150);
+}
+.letra2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #af9c98;
+    text-shadow:  1px 1px 2px  rgb(68, 68, 68);
+}
+
+.btn2{
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: black;
+    background-color: #af9c98;
+    border-radius: 10px;
+}
+
+#plano3top{
+    background-color: #ead1cb;
+    width: 210px;
+    height: 20px;
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#plano3{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+#plano3botom{
+    background-color: #ead1cb;
+    width: 210px;
+    height: 20px;
+    margin-left: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.plano3{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 30px 0px  rgb(151, 150, 150);
+}
+.letraGrande{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-shadow:  1px 1px 2px  rgb(68, 68, 68);
+    color: #ead1cb;
+}
+
+.btn3{
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: black;
+    background-color: #ead1cb;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#plano4top{
+    background-color: #cbe4ea;
+    width: 160px;
+    height: 15px;
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#plano4{
+    background-color: white;
+    width: 200px;
+    height: 400px;
+    border-radius: 20px;
+}
+#plano4botom{
+    background-color: #cbe4ea;
+    width: 160px;
+    height: 15px;
+    margin-left: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.plano4{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 30px 0px  rgb(151, 150, 150);
+}
+.letra4{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #cbe4ea;
+    text-shadow:  1px 1px 2px  rgb(68, 68, 68);
+}
+
+.btn4{
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: black;
+    background-color: #cbe4ea;
+    border-radius: 10px;
+}
+
+
+.carrossel{
+    display: flex;
+    flex-direction: row;
+}
+#distancia{
+    margin-left: 50px;
+}
+.carrossel1{
+    margin-top: 100px;
+    
+}
+.carrossel2{
+    margin-top: 100px;
+}
+.carrossel3{
+    margin-top: 50px;
+}
+.carrossel4{
+    margin-top: 100px;
+}
+.pacotes{
+    text-align: center;
+    font-size: 15px;
+}
